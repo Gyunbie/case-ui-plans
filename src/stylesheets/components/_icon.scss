@@ -1,0 +1,15 @@
+.icon {
+  height: 30px;
+  width: 30px;
+  &--blue path {
+    fill: $light-blue;
+  }
+  &--white path {
+    fill: $white;
+  }
+  &--boolean {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}

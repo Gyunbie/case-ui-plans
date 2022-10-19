@@ -1,0 +1,28 @@
+.plans {
+  padding: 96px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+  &__information {
+    margin-bottom: 72px;
+    text-align: center;
+    & > * + * {
+      margin-top: 16px;
+    }
+    &__heading {
+      font-size: $text-xl;
+      font-weight: 700;
+    }
+    &__description {
+      color: $g-light-text-color;
+    }
+  }
+  &__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5rem;
+  }
+}

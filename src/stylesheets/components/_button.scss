@@ -1,0 +1,28 @@
+.button {
+  all: unset;
+  width: 100%;
+  height: 54px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: auto !important;
+  cursor: pointer;
+  transition: all 0.15s ease-out;
+  color: $rose;
+  font-weight: 600;
+  align-self: flex-end;
+  &--red {
+    background: $rose-light;
+    &:hover {
+      background: $rose;
+      color: $white;
+    }
+  }
+  &--white {
+    background: $white;
+  }
+  &--white:hover {
+    color: $white;
+    border: 2px solid $white;
+    background: transparent;
+  }
+}

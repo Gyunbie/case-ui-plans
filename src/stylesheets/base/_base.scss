@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  background-color: $g-body-background-color;
+  color: $g-text-color;
+  font-family: $g-font-family;
+  font-size: $g-font-size;
+  line-height: $g-line-height;
+}
